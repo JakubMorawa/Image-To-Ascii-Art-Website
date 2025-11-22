@@ -14,7 +14,7 @@ img.onload = () => {
 
   ctx.drawImage(img, 0, 0);
 
-  const densityString = "@#%8&WM$BXGPDQHOCUAKdwmopxzncvnxrjftl|i!;:,.";
+  const densityString = "@#%8&WM$BXGPDQHOCUAKdwmopxzncvnxrjftl|i!;:,. ";
   const densityStringLength = densityString.length-1;
 
 
