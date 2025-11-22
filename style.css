@@ -1,0 +1,45 @@
+body{
+    background-color:black;
+}
+
+.ASCIIart{
+    font-size: 1px;
+    margin-top: 0px;
+    font-family: 'Consolas', monospace;
+    font-weight: 40px;
+    white-space: pre;
+    margin : 0px;
+    color:white;
+}
+
+.ART{
+    display: flex;
+    align-items: flex-start;
+    margin-top:1%;
+    margin-left:5%;
+}
+
+.TEXT{
+    margin-top:1%;
+    width:50%;
+    align-items: center;
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Georgia" ;
+}
+
+.TEXT header{
+    font-size: 50px;
+}
+
+.TEXT p{
+    font-size: 30px;
+}
+
+.container{
+    display: flex;
+    align-items: flex-start;
+}

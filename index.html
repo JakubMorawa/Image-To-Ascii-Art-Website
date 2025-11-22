@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image To ASCII Art</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="icon" type="image/png" href="monaLisaASCIII.png">
+</head>
+<body>
+    <div class="container">
+        <div class = "ART">
+            <p class="ASCIIart" id="ASCIIart">HI</p>
+        </div>
+
+        <div class = "TEXT">
+            <header>Image To ASCII Art</header>
+            <hr>
+            <p>This image was created by ASCII letters dictated by their brightness. The letters are decided through this String from decending density.<br><br>
+            "@#%8&WM$BXGPDQHOCUAKdwmopxzncvnxrjftl|i!;:,."<br>
+            <p>The Javascript code interates through the pixels of the image and calculates the pixel's brightness by averaging the rgb values. 
+                Then the pixel is translated through a function so that the brightness can be tweaked; it balances it so that it is not too dark and not bright.<br><br>
+                Then those values are combined together and sent to be created into a HTML paragraph as seen to the left. 
+                If you want to, you can tweak the code and the function to make any ASCII art you want.
+            </p>
+        </p><hr>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
